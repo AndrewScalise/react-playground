@@ -7,13 +7,11 @@ import ToolBarExamplesSimple from "./toolbar.js";
 class App extends Component {
   render() {
     return (
-        <Fragment>
-          <div className="App">
-              <Main/>
-              <ToolBarExamplesSimple/>
-              <BottomNavigationExampleOne/>
-          </div>
-        </Fragment>
+      <div className="App">
+          <Main/>
+          <ToolBarExamplesSimple/>
+          <BottomNavigationExampleOne/>
+      </div>
     );
   }
 }
